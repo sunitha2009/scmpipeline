@@ -10,5 +10,5 @@ pipeline{
         stage("build"){
             steps{
                 echo "this is build clone section"
-    }    }   }   
+    }    }   }  bat 'mvn clean install' 
 }
